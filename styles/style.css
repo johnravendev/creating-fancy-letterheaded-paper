@@ -40,6 +40,12 @@ h1 {
   
 /* Your CSS below here */
 
+/* Main letter */
+
+article {
+    background: url('../images/top-image.png') no-repeat, url('../images/bottom-image.png') no-repeat bottom;
+}
+
 /* Logo */
 
 h1 {
