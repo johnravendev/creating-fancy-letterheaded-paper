@@ -43,7 +43,12 @@ h1 {
 /* Main letter */
 
 article {
-    background: url('../images/top-image.png') no-repeat, url('../images/bottom-image.png') no-repeat bottom;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0)80%, rgba(0,0,0,0.2)),
+                url('../images/top-image.png') no-repeat left top,
+                url('../images/bottom-image.png') no-repeat left bottom;
+    background-color: white;
+    border-top: 1mm solid grey;
+    border-bottom: 1mm solid grey;
 }
 
 /* Logo */
