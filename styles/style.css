@@ -55,4 +55,6 @@ article {
 
 h1 {
     background-image: url('../images/logo.png');
+    border-radius: 64px;
+    box-shadow: 3px 3px 3px black;
 }
